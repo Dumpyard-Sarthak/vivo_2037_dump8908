@@ -1,0 +1,14 @@
+# full_k69v1_64-user 11 RP1A.200720.012 eng.compil.20220106.112954 release-keys
+- manufacturer: 
+- platform: mt6768
+- codename: 2037
+- flavor: full_k69v1_64-user
+- release: 11
+- id: RP1A.200720.012
+- incremental: eng.compil.20220106.112954
+- tags: release-keys
+- fingerprint: vivo/2037i/2037:11/RP1A.200720.012/compiler0106112543:user/release-keys
+- is_ab: false
+- brand: vivo
+- branch: full_k69v1_64-user-11-RP1A.200720.012-eng.compil.20220106.112954-release-keys
+- repo: vivo_2037_dump8908
