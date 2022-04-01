@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <boolean name="gyroscope_support">false</boolean>
+    <boolean name="infrared_near_support">true</boolean>
+    <boolean name="hifi_support">false</boolean>
+    <boolean name="fm_support">true</boolean>
+    <boolean name="sub_echo_support">false</boolean>
+    <boolean name="double_hifi_support">false</boolean>
+    <boolean name="smart_spearker_amplifier_cali_support">false</boolean>
+    <boolean name="speaker_resdetect_support">false</boolean>
+    <boolean name="ktv_sound_support">false</boolean>
+    <boolean name="camera_pdaf">true</boolean>
+    <boolean name="virtual_sim">false</boolean>
+    <boolean name="flash_light_cali_support">true</boolean>
+    <boolean name="meid_support">true</boolean>
+    <boolean name="button_light">false</boolean>
+    <boolean name="camera_fill_light">false</boolean>
+    <boolean name="front_flash_light_cali_support">false</boolean>
+    <boolean name="dpdt_test">true</boolean>
+    <boolean name="double_camera">false</boolean>
+    <boolean name="leds_support">false</boolean>
+    <boolean name="fastcharger_support">true</boolean>
+    <boolean name="lcm_light_sensor">false</boolean>
+    <boolean name="light_sensor_leak">true</boolean>
+    <boolean name="ai_key_support">false</boolean>
+    <boolean name="light_sensor_angle">true</boolean>
+    <boolean name="sim_test_support">false</boolean>
+    <boolean name="reduce_sar_test">false</boolean>
+    <string name="btb_slot">SIM1,TF/SIM2</string>
+    <string name="camera_type">back[Master,Macro,RTBOnly]front[Master]</string>
+</resources>

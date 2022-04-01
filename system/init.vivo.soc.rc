@@ -1,0 +1,16 @@
+#init.rc for vivo
+
+on boot
+    # vivo nielichao add for camera begin
+    mkdir /mnt/vendor/nvcfg/camera 0777 system system
+    # vivo nielichao add for camera end
+
+    # vivo gaoyongjing add for camera begin
+    mkdir /data/vendor/camera 0777 system system
+    # vivo gaoyongjing add for camera end
+
+# vivo wumengxiang add for MTK TCP/IP PARA begin
+on property:persist.vivo.mtk.networkstate_tcp_parameter.enable=true
+    write /proc/sys/net/ipv4/tcp_orphan_retries 3
+# vivo wumengxiang add for MTK TCP/IP PARA end
+

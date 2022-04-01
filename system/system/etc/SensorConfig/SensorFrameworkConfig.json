@@ -1,0 +1,22 @@
+{
+ "DriverProxTempCali": 1,
+ "DualOrIncProx": 1,
+ "SupportLuxAngle": 1,
+ "is_underproximitysensor ": 0,
+ "SmartProx": 0,
+ "InstantCali": 1,
+ "MinimumBrightHighThreshold": 301,
+ "SupportDoubleScreen": 0,
+ "ScreenOnProxTempCali": 1,
+ "engineModeForbidSarCali": 1,
+ "EngineModeRejectReduceSar": 1,
+ "UnderDisplayLight": 0,
+ "MaxBrightness": 2047,
+ "ScreenOnWaitLux": 300,
+ "NotifyLcmBrightnessToDriverList": 0,
+ "isLightLeak": 0,
+ "AnimateSchemeIndex": 2,
+ "MultilevelBright": 1,
+ "BoostBrightness": 573,
+ "MtkSupportDsiCommand": 1
+}
