@@ -1,0 +1,11 @@
+#!/system/bin/sh
+if ! applypatch --check EMMC:/dev/block/bootdevice/by-name/survival:100663296:3cb6ce84d145fce32b3b2ca10928be4d57cfe844; then
+  applypatch  \
+          --patch /system/wwh \
+          --source EMMC:/dev/block/platform/bootdevice/by-name/boot:100663296:090f6bb65b64a7a2fdf1a01927a777dcce21b54a \
+          --target EMMC:/dev/block/bootdevice/by-name/survival:100663296:3cb6ce84d145fce32b3b2ca10928be4d57cfe844 && \
+      log -t recovery "Installing new ww image: succeeded" || \
+      log -t recovery "Installing new ww image: failed"
+else
+  log -t recovery "ww image already installed"
+fi
